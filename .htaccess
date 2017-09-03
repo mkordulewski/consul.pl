@@ -1,4 +1,4 @@
 RewriteEngine On
 
 RewriteCond %{HTTP_HOST} ^((.*)\.)?(consul\.pl)$ [NC]
-RewriteRule ^ http://consul.io [R=301,L,NE]
+RewriteRule ^ http://consul.io [R=302,L,NE]
